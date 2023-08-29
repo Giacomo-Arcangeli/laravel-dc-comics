@@ -1,7 +1,7 @@
 @extends('layouts.main')
 @section('main')
     <h1 class="my-5 text-center">Aggiungi Comic</h1>
-    <a href="{{ route('comics.index') }}" class="btn btn-danger">Torna indietro</a>
+    <a href="{{ route('comics.index') }}" class="btn btn-secondary">Torna indietro</a>
 
 
     @include('includes.alert-error')
