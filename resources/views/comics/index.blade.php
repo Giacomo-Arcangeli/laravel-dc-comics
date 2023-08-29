@@ -1,6 +1,7 @@
 @extends('layouts.main')
 @section('main')
     <h1 class="my-5 text-center">Comics list</h1>
+    <a href="{{ route('comics.create') }}" class="btn btn-success">Aggiungi Comic</a>
     <div class="row">
         @foreach ($comics as $comic)
             <div class="col-3 g-5">
